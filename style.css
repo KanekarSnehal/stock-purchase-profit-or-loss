@@ -1,0 +1,65 @@
+:root{
+    --primary-color:rgb(59, 130, 192);
+}
+
+body{
+    text-align: center;
+    color: rgb(59, 130, 192);
+    background-color: black;
+    font-size: large;
+    padding: 1rem;
+}
+
+.input-label {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.input {
+    font-size: large;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    text-align: center;
+}
+
+
+#submit-button{
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+
+#error-box
+{
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+    margin: 1rem 0 0;
+    color: #DC2626;
+}
+
+#output
+{
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+    margin: 1rem 0 0;
+    color: green;
+}
